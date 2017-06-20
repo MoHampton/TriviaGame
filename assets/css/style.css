@@ -1,0 +1,94 @@
+.wrapper {
+	height: 900px;
+	position: relative;
+	overflow: hidden;
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+
+body {
+	margin: 15px;
+	background-image: url('../images/background2.jpg');
+	background-size: cover;
+	background-position: center;
+ 	background-position-y: 60px;
+	background-repeat: no-repeat;
+	font-family: 'Cinzel', serif;
+	
+}
+
+p {
+	text-align: center;
+	font-style: bold;
+	font-size: 28px;
+}
+
+img.dance {
+	margin-bottom: 30px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+header  {
+	background: gunmetalgrey;
+	border-radius: 10px;
+
+}
+
+header {
+	text-align: center;
+}
+
+main {
+	min-height: 200px;
+}
+
+h1 {
+	font-size: 50px;
+	font-style: italic;
+}
+
+h2 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.timer {
+	text-align: center;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+.button {
+	text-align: center;
+}
+
+.question {
+	text-align: left;
+}
+
+.answer {
+	padding: 10px 10px 10px 30px;
+	text-align: left;
+}
+
+.answer:hover {
+	background: url('../images/cosmo.png') no-repeat;
+	background-size: 30px;
+}
+
+.results-img {
+	text-align: center;
+}

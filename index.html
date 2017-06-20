@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sex And The City Trivia Game </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://bootswatch.com/slate/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="assets/javascript/app.js"></script>
+</head>
+<body>
+<div class="wrapper">
+
+<!--Sex And The City Banner -->	
+	<header>
+		<img src="assets/images/logo 2.jpg">
+		<h1>TRIVIA!</h1>
+	</header>
+
+<!--Game Window -->
+	<div class="container">
+			<div class="jumbotron row">
+				<div class="col-xs-12 col-md-6 col-md-offset-3">
+
+					<main>
+						<div class="timer"></div>
+						<div class="show-question"></div>
+
+					<!--Intro will disappear after game start -->
+						<div id="intro">
+						<p class="intro"> How well do you know the ladies from the Big Apple?</p>
+						<img id="dance" src="assets/images/SATCcrew.jpeg"> 
+						</div>
+					<!--Button will also disappear after game start -->
+						<div class="button"><button type="button" class="btn btn-primary" id="start-game">Start Game</button></div>
+					</main>
+				
+				</div>
+			</div>
+	</div>
+</div>
+			<!--Fixing bugs on audio file -->
+			<audio id="player">
+				<src id="Movie" src="assets/images/SATCMovieTunes.mp3" type="audio/mp3">
+				<src id="correct" src="assets/images/SATCShowTunes.mp3" type="audio/mp3">
+			</audio>
+
+</body>
+</html>
